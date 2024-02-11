@@ -6,4 +6,8 @@
 1. `npm i` to install deps
 2. create a `.env` file that sets the `DB_` env variables to your postgres db credentials (that has the postgis extension installed)
 3. run `node ace postgis:test`
-4. if successful, you you see a log output like this -> `[ info ] ST_geomFromText('Point(0 0)')`
+4. if successful, you you see a log output like this:
+
+```
+[ info ] ST_geomFromText('Point(0 0)')
+```
